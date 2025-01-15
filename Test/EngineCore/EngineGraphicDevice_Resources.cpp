@@ -218,7 +218,7 @@ void UEngineGraphicDevice::MeshInit()
 		// æ∆∑°øﬁ_√ ∑œ
 		Vertexs[21] = FEngineVertex{ FVector(0.0f, 0.0f, 0.5f), { 0.0f, 1.0f }, { 1.0f, 1.0f, 0.0f, 1.0f } };
 		Vertexs[22] = FEngineVertex{ FVector(0.5f, 0.0f, 0.0f), { 0.0f, 1.0f }, { 1.0f, 1.0f, 0.0f, 1.0f } };
-		Vertexs[23] = FEngineVertex{ FVector(0.0f, -0.75f, 0.0f), { s0.0f, 1.0f }, { 1.0f, 1.0f, 0.0f, 1.0f } };
+		Vertexs[23] = FEngineVertex{ FVector(0.0f, -0.75f, 0.0f), { 0.0f, 1.0f }, { 1.0f, 1.0f, 0.0f, 1.0f } };
 
 		UEngineVertexBuffer::Create("TestMesh", Vertexs);
 
