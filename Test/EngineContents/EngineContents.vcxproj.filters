@@ -7,14 +7,8 @@
     <ClInclude Include="TitleGameMode.h">
       <Filter>GameMode</Filter>
     </ClInclude>
-    <ClInclude Include="TitleLogo.h">
-      <Filter>Title</Filter>
-    </ClInclude>
     <ClInclude Include="MyCustomRenderer.h">
       <Filter>Render</Filter>
-    </ClInclude>
-    <ClInclude Include="Monster.h">
-      <Filter>Title</Filter>
     </ClInclude>
     <ClInclude Include="TileMapGameMode.h">
       <Filter>GameMode</Filter>
@@ -22,18 +16,27 @@
     <ClInclude Include="ContentsEditorGUI.h">
       <Filter>GUI</Filter>
     </ClInclude>
-    <ClInclude Include="Monster2.h">
-      <Filter>Title</Filter>
-    </ClInclude>
     <ClInclude Include="GMConst.h" />
-    <ClInclude Include="AMon.h">
-      <Filter>Title</Filter>
-    </ClInclude>
     <ClInclude Include="TitleHUD.h">
       <Filter>HUD</Filter>
     </ClInclude>
     <ClInclude Include="TestLevel.h">
       <Filter>GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="TestActor.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="AMon.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>Title</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -43,15 +46,9 @@
     <ClCompile Include="TitleGameMode.cpp">
       <Filter>GameMode</Filter>
     </ClCompile>
-    <ClCompile Include="TitleLogo.cpp">
-      <Filter>Title</Filter>
-    </ClCompile>
     <ClCompile Include="ContentsCore_Resources.cpp" />
     <ClCompile Include="MyCustomRenderer.cpp">
       <Filter>Render</Filter>
-    </ClCompile>
-    <ClCompile Include="Monster.cpp">
-      <Filter>Title</Filter>
     </ClCompile>
     <ClCompile Include="TileMapGameMode.cpp">
       <Filter>GameMode</Filter>
@@ -59,25 +56,31 @@
     <ClCompile Include="ContentsEditorGUI.cpp">
       <Filter>GUI</Filter>
     </ClCompile>
-    <ClCompile Include="Monster2.cpp">
-      <Filter>Title</Filter>
-    </ClCompile>
-    <ClCompile Include="AMon.cpp">
-      <Filter>Title</Filter>
-    </ClCompile>
     <ClCompile Include="TitleHUD.cpp">
       <Filter>HUD</Filter>
     </ClCompile>
     <ClCompile Include="TestLevel.cpp">
       <Filter>GameMode</Filter>
     </ClCompile>
+    <ClCompile Include="TestActor.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="AMon.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster2.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="GameMode">
       <UniqueIdentifier>{b30b3464-9fea-42bc-a269-6d65ecf4f6c0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Title">
-      <UniqueIdentifier>{b8c8ade7-800f-4020-890f-43e613f26276}</UniqueIdentifier>
     </Filter>
     <Filter Include="Render">
       <UniqueIdentifier>{00b22cb0-38ad-4f90-9885-863b07f1e2f0}</UniqueIdentifier>
@@ -87,6 +90,12 @@
     </Filter>
     <Filter Include="HUD">
       <UniqueIdentifier>{2fc0cad0-7fd5-46fe-876b-90d7d52a5dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{e68b6556-0271-4b5a-8c66-1f6831db188f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title">
+      <UniqueIdentifier>{c126790d-92a0-4fec-9c5c-17d71a703c3c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

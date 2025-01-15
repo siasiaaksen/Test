@@ -2,22 +2,21 @@
 #include <EngineCore/Actor.h>
 
 
-class TestActor : public AActor
+class ATestActor : public AActor
 {
 public:
-	TestActor();
-	~TestActor();
+	ATestActor();
+	~ATestActor();
 
-	TestActor(const TestActor& _Other) = delete;
-	TestActor(TestActor&& _Other) noexcept = delete;
-	TestActor& operator=(const TestActor& _Other) = delete;
-	TestActor& operator=(TestActor&& _Other) noexcept = delete;
+	ATestActor(const ATestActor& _Other) = delete;
+	ATestActor(ATestActor&& _Other) noexcept = delete;
+	ATestActor& operator=(const ATestActor& _Other) = delete;
+	ATestActor& operator=(ATestActor&& _Other) noexcept = delete;
 
 protected:
-	void BeginPlay() override;
 	void Tick(float _DeltaTime) override;
 
 private:
-	std::shared_ptr<class USpriteRenderer> Renderer;
+	std::shared_ptr<class MyCustomRenderer> Renderer;
 };
 

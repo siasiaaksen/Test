@@ -18,6 +18,6 @@ public:
 protected:
 
 private:
-	std::shared_ptr<class MyCustomRenderer> Renderer;
+	std::shared_ptr<class ATestActor> Actor;
 };
 
